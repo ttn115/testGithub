@@ -1,2 +1,2 @@
 test
-add string
+add string 2
