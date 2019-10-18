@@ -1,5 +1,5 @@
 # method to change root
-This worked for me, and kept all my history intact. From the incorrect root folder (the parent where you accidentally initialized the repo):
+This worked for me, and kept all my history intact. From the incorrect root folder (from https://stackoverflow.com/questions/1918111/my-git-repository-is-in-the-wrong-root-directory-can-i-move-it-instead-of):
 
 - Move the folder:
 
@@ -25,3 +25,4 @@ When you commit the git repo after re-initializing, you'll get a bunch of output
 
 rename {ethanode/coffee => coffee}/app.coffee (100%)
 In other words, all of your references from the parent folder and being renamed to use the correct folder.
+
