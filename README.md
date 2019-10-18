@@ -2,19 +2,21 @@
 This worked for me, and kept all my history intact. From the incorrect root folder (the parent where you accidentally initialized the repo):
 
 - Move the folder:
+
 mv .git thecorrectfolder/
 
 - Re-initialize the git repo:
+
 cd thecorrectfolder/
 git init
 
--Re-add all the files, commit, and push:
+- Re-add all the files, commit, and push:
 
 git add .
 git commit -am 'fixing things'
 git push origin master
 
--Done! Get yourself a beer.
+- Done! Get yourself a beer.
 
 When you commit the git repo after re-initializing, you'll get a bunch of output that looks like this:
 
