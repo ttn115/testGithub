@@ -8,12 +8,15 @@ mv .git thecorrectfolder/
 - Re-initialize the git repo:
 
 cd thecorrectfolder/
+
 git init
 
 - Re-add all the files, commit, and push:
 
 git add .
+
 git commit -am 'fixing things'
+
 git push origin master
 
 - Done! Get yourself a beer.
