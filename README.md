@@ -3,21 +3,21 @@ This worked for me, and kept all my history intact. From the incorrect root fold
 
 - Move the folder:
 
-mv .git thecorrectfolder/
+`mv .git thecorrectfolder/`
 
 - Re-initialize the git repo:
 
-cd thecorrectfolder/
+`cd thecorrectfolder/`
 
-git init
+`git init`
 
 - Re-add all the files, commit, and push:
 
-git add .
+`git add .`
 
-git commit -am 'fixing things'
+`git commit -am 'fixing things'`
 
-git push origin master
+`git push origin master`
 
 - Done! Get yourself a beer.
 
