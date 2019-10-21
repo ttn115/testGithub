@@ -48,6 +48,9 @@ delete_target.txt
 /Listings/*
 /Objects/*
 _build/
+2/
+3/
+
 
 # Debugger files
 # define exception below if needed
